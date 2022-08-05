@@ -5,9 +5,7 @@
     <title>Cascading Style Sheets (CSS)</title>
     <!--Outsource(External) Styles-->
     <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-<section>
+
     <style>
         /*Meta styles*/
         div {
@@ -43,11 +41,27 @@
         /*}*/
 
 
+        /*!*Attribute selector*!*/
+        /*[id]{*/
+        /*    color: red;*/
+        /*    background: orange;*/
+        /*    font-size: 100px;*/
+        /*}*/
+
+        li:nth-child(2){
+            color: red;
+            font-size: 30px;
+        }
 
     </style>
+</head>
+<body>
+<section>
+
     <!--inline styles-->
     <h1 style="color: red">Hello There! I'm here to learn CSS</h1>
     <h2>Hello There! I'm here to learn CSS</h2>
+    <h2>ආයුබෝවන්!</h2>
     <h3 id="h2Heading">Hello There! I'm here to learn CSS</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolor, omnis! Adipisci aperiam, culpa debitis
         deserunt est et expedita facere facilis id itaque laborum nihil nulla porro sint tempore vero.</p>

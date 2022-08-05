@@ -108,13 +108,18 @@
 
         /*===========Child Combinators===============*/
 
-        body>h1{
-            color: aqua;
-        }
+        /*body>h1{*/
+        /*    color: aqua;*/
+        /*}*/
 
         /*section>h1{*/
         /*    color:royalblue;*/
         /*}*/
+
+        /* Descendent Combinator (h1 can be inside any where in a section - no need to be a direct child)*/
+        section h1{
+            color: red;
+        }
 
     </style>
 </head>

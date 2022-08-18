@@ -30,33 +30,49 @@
 
         /*/////////////////////////////////////////*/
 
+        /*1*/
         h1{
             color: red;
         }
 
+        /*100*/
         #selectID{
             color: green;
         }
 
+        /*10*/
         .selectClass{
             color: yellow;
         }
 
+        /*10 + 1 = 11*/
         .mainClass h1 {
             color: orange;
         }
 
+        /*1 + 1 + 1 + 10 + 1 = 14*/
         body>main>section:nth-child(2) h1{
             color: aqua;
         }
 
+        /*1 + 1 + 1 + 10 + 1 + 1 + 10 + 1 = 26*/
         body>main>section:nth-child(2)>article>div:nth-child(2)>h1{
             color: chocolate;
         }
 
+        /*1 + 1 + 1 + 10 + 1 + 1 + 10 + 1 = 26*/
         body>main>section:nth-child(2)>article>div:nth-child(2) h1{
             color: darkblue;
         }
+
+        /*/////ANSWER ORDER/////*/
+        /*Green*/
+        /*Darkblue*/
+        /*Chocolate*/
+        /*Aqua*/
+        /*Orange*/
+        /*Yellow*/
+        /*Red*/
 
     </style>
 </head>

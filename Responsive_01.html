@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Responsive 01</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <style>
+        h1 {
+            color: red;
+        }
+
+        /*@media print {*/
+        /*    h1 {*/
+        /*        color: green;*/
+        /*    }*/
+        /*}*/
+
+        @media all and (max-width: 375px) {
+            h1 {
+                color: green;
+                font-size: 100px;
+            }
+        }
+    </style>
 </head>
 <body>
-
+<h1>Let's make a responsive webpage!</h1>
 </body>
 </html>

@@ -11,7 +11,8 @@
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">BootStrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,13 +24,16 @@
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
                         Dropdown
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
@@ -45,11 +49,11 @@
     </div>
 </nav>
 
-<h1>Hello There!  I'm here to learn Bootstrap</h1>
+<h1>Hello There! I'm here to learn Bootstrap</h1>
 <h2>Bootstrap is a CSS Framework.</h2>
 <br>
 
-<h2>Table</h2>
+<h3>Table</h3>
 <table class="table table-bordered table-hover">
     <thead>
     <tr>
@@ -60,18 +64,20 @@
     </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>C001</td>
-            <td>Dasun</td>
-            <td>Galle</td>
-            <td>100000</td>
-        </tr>
+    <tr>
+        <td>C001</td>
+        <td>Dasun</td>
+        <td>Galle</td>
+        <td>100000</td>
+    </tr>
     </tbody>
 </table>
 <br>
 
 <button class="btn btn-success">Save Customer</button>
 <button class="btn btn-danger">Delete Customer</button>
+<br>
+<br>
 <br>
 
 <button type="button" class="btn btn-outline-primary">Primary</button>
@@ -86,7 +92,7 @@
 <br>
 
 <!--spinners-->
-<h2>Spinners</h2>
+<h3>Spinners</h3>
 <div class="spinner-border text-primary" role="status">
     <span class="visually-hidden">Loading...</span>
 </div>
@@ -111,11 +117,14 @@
 <div class="spinner-border text-dark" role="status">
     <span class="visually-hidden">Loading...</span>
 </div>
+<br>
+<br>
+<br>
 
 <!--alert-->
 <section>
     <!-- Button trigger modal -->
-    <h2>Model</h2>
+    <h3>Model</h3>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Click to save changes
     </button>
@@ -141,16 +150,33 @@
 </section>
 <br>
 <br>
-<br>
 
 <!--select drop down-->
-<h2>Select drop down</h2>
+<h3>Select drop down</h3>
 <select class="form-select" aria-label="Default select example">
     <option selected>Open this select menu</option>
     <option value="1">One</option>
     <option value="2">Two</option>
     <option value="3">Three</option>
 </select>
+<br>
+<br>
+
+<!--checkbox-->
+<h3>Checkbox</h3>
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+        Accept licence agreement
+    </label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+    <label class="form-check-label" for="flexCheckChecked">
+        Commit Changes
+    </label>
+</div>
+
 
 <!--Import js for bootstrap-->
 <script src="assets/js/bootstrap.min.js"></script>
